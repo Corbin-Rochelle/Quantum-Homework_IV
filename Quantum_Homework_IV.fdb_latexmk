@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1645396588 "/Users/corbin/Documents/GitHub/Quantum-Homework_IV/Quantum_Homework_IV.tex" "Quantum_Homework_IV.pdf" "Quantum_Homework_IV" 1645396589
-  "/Users/corbin/Documents/GitHub/Quantum-Homework_IV/Quantum_Homework_IV.tex" 1645396588 1835 acac188e14a0caf13b0a3674dc2f854e ""
+["pdflatex"] 1645537255 "/Users/corbin/Documents/GitHub/Quantum-Homework_IV/Quantum_Homework_IV.tex" "Quantum_Homework_IV.pdf" "Quantum_Homework_IV" 1645537258
+  "/Users/corbin/Documents/GitHub/Quantum-Homework_IV/Quantum_Homework_IV.tex" 1645537255 2707 d1e58b64a72180cab5fdda2251f55fba ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -43,9 +43,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1637181772 4363830 115bf83999b1c6fe42fcb49e6fa843f4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1637181800 2819429 86e693597574a6e7a64545fb9ad2a693 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Quantum_Homework_IV.aux" 1645396589 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Quantum_Homework_IV.tex" 1645396588 1835 acac188e14a0caf13b0a3674dc2f854e ""
+  "Quantum_Homework_IV.aux" 1645537255 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "Quantum_Homework_IV.tex" 1645537255 2707 d1e58b64a72180cab5fdda2251f55fba ""
   (generated)
+  "Quantum_Homework_IV.log"
   "Quantum_Homework_IV.pdf"
   "Quantum_Homework_IV.aux"
-  "Quantum_Homework_IV.log"

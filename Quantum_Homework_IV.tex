@@ -14,7 +14,9 @@
 \subsection*{A.}
 The initial realiziation I made was that that the Eigenvectors, $\ket{E_1}$, $\ket{E_2}$, $\ket{E_3}$, and $\ket{E_4}$, were the same values for all values of \texttt{ham2factorC};
 however the Eigenvalues change with a different pattern: namely $\ket{E_1}$ is the negation of $\ket{E_2}$ and $\ket{E_3}$ is the negation of $\ket{E_4}$, while $\ket{E_2}$ is calculated with $1+\texttt{ham2factorC}$ and $\ket{E_4}$ is calculated with $1-\texttt{ham2factorC}$!
-ASK ABOUT THE FINAL PART OF THIS QUESTION
+We can explain $P_j(t)$ easily by looking at the resulting $\ket{\psi_{final}}$!
+For different values of \texttt{ham2factorC}'s, we see different values of $\ket{\psi_{final}}$, but if we take the norm of all of the resulting states, we get $\frac{1}{2}$. 
+This means when we take $\lvert\bra{j}\ket{\psi_{final}}\rvert^2$, the $\bra{j}$ will select one value from $\ket{\psi_{final}}$ and when taking the square of the $\frac{1}{2}$, we get $\frac{1}{4}$, which is the values we see for all $P_j(t)$.
 \subsection*{B.}
 The first thing I notice is that the Eigenvalues follow the same pattern described for the system in question 1A. 
 The second thing I notice is that although the Eigenvalues follow that pattern, the Eigenvectors do not. 
@@ -26,18 +28,27 @@ I found two Hamiltonians that meet the following criteria:
 \begin{center}
     $H_{total} = (\sigma^x \bigotimes \sigma^x) + C (\sigma^x \bigotimes \sigma^x)$\\
     and\\
+    $H_{total} = (\sigma^y \bigotimes \sigma^y) + C (\sigma^y \bigotimes \sigma^y)$\\
+    and\\
     $H_{total} = (\sigma^z \bigotimes \sigma^z) + C (\sigma^z \bigotimes \sigma^z)$
 \end{center}
-For both of these the bell state is $\ket{\psi_{initial}}$=
+For all of these, the bell state is $\ket{\psi_{initial}}$=
 $
 \begin{pmatrix} 
     \frac{1}{\sqrt{2}} \\ 0 \\ 0 \\ -\frac{1}{\sqrt{2}}
 \end{pmatrix}
 $
-ASK ABOUT THIS!
+and $\ket{\psi_{final}}=$
+$
+\begin{pmatrix} 
+    x \\ 0 \\ 0 \\ x
+\end{pmatrix}
+$, where the norm of $x=\frac{1}{\sqrt{2}}$.
+From this we can see two of the $j$ Cbits will select one of the x's, namely the $\ket{00}$ or $\ket{11}$, which have the $P_j(t)=0.5$, while the other $j$s will multiply by the zeros and have $P_j(t)=0$.
 
 \section*{Question 2}
 \subsection*{A.}
+ 
 \subsection*{B.}
 \subsection*{C.}
 \subsection*{D.}
