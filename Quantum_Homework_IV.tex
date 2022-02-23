@@ -17,12 +17,15 @@ however the Eigenvalues change with a different pattern: namely $\ket{E_1}$ is t
 We can explain $P_j(t)$ easily by looking at the resulting $\ket{\psi_{final}}$!
 For different values of \texttt{ham2factorC}'s, we see different values of $\ket{\psi_{final}}$, but if we take the norm of all of the resulting states, we get $\frac{1}{2}$. 
 This means when we take $\lvert\bra{j}\ket{\psi_{final}}\rvert^2$, the $\bra{j}$ will select one value from $\ket{\psi_{final}}$ and when taking the square of the $\frac{1}{2}$, we get $\frac{1}{4}$, which is the values we see for all $P_j(t)$.
+
 \subsection*{B.}
 The first thing I notice is that the Eigenvalues follow the same pattern described for the system in question 1A. 
 The second thing I notice is that although the Eigenvalues follow that pattern, the Eigenvectors do not. 
 The $\ket{\psi_{initial}}$ is the same as $\ket{\psi_{final}}$ because the $P_j(t)$ function requires the norm to be taken of both wave functions. 
 The norm of $\ket{\psi_{initial}}=\ket{\psi_{final}}$ for all four values, creating a straight line.
-The values in the vector are changing, but the norm of the values are always the same. 
+For all values of t, the vectors are changing, but the norm of the values are always the same. 
+This is because $H_{total}$ and $\ket{\psi_{final}}$ are orthogonal to each other! 
+
 \subsection*{C.}
 I found two Hamiltonians that meet the following criteria:
 \begin{center}
@@ -48,8 +51,11 @@ From this we can see two of the $j$ Cbits will select one of the x's, namely the
 
 \section*{Question 2}
 \subsection*{A.}
+ For any system of $N$ qbits, $E_{GS}=-N$, while $E_2=-(N-2)$.
+ And I have checked and verified up to 6 qbits. 
  
 \subsection*{B.}
+
 \subsection*{C.}
 \subsection*{D.}
 
